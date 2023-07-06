@@ -1,3 +1,14 @@
+# I retried flashing this with virtual box, and the USB baud rate is problematic. 
+# I had success flashing this with Ubuntu 20
+# on Bare Metal, and in VMWare. 
+# For some reason I think that USB is limited 
+# in Virtual Box. 
+#
+# Also, Remember that you should update the user 
+# specific values such as 
+# <username>, <password>, and <hostname>
+# Also, I have not tested later ubuntu releases
+# Such as 23.  Use Ubuntu 20 if possible.
 sudo apt update
 sudo apt -y upgrade
 
